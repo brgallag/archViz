@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+svg {
+    background-image: url('/images/brentwood-master-plan.JPG');
+    background-size: cover;
+}
+
+path {
+  pointer-events: all;
+  fill: none;
+  stroke: #666;
+  stroke-opacity: 0;
+}
+
+.active circle {
+  stroke: #ececec;
+  stroke-width: 2px;
+}
