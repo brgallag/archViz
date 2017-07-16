@@ -9,6 +9,14 @@ app.use('/', express.static(__dirname + '/static'));
 
 require('./routes')(app);
 
+app.get('/programming', function(req, res){
+  return res.redirect('/#programming');
+});
+
+app.get('*', function(req, res){
+  return res.redirect('/');
+});
+
 server.listen(port, function() {
     console.log('Server listening on port ' + port);
 })

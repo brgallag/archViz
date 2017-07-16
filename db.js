@@ -6,3 +6,5 @@ mongoose.connect('brentwood'), function(a) {
         console.log(a);
     }
 }
+
+module.exports = mongoose;
