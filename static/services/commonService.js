@@ -24,7 +24,8 @@
             notify: notify,
             stopListening: stopListening,
             unregisterAllEventsById: unregisterAllEventsById,
-            init: init
+            init: init,
+            d3: d3
         };
 
         service.isMobile = {
@@ -52,6 +53,12 @@
         
         function init(){
             console.log('App Initialized');
+        }
+        
+        function d3(){
+            var d3 = 'test';
+            // insert d3 code here
+            return d3;
         }
 
         function getText(module) {

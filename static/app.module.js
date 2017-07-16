@@ -4,7 +4,8 @@
   'use strict';
   angular.module('module-app', [
     'ui.router',
-    'module-main'
+    'module-main',
+    'd3'
   ])
   .config(['$stateProvider', '$urlRouterProvider', '$httpProvider', '$locationProvider',
   function ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider) {
