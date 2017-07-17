@@ -6,6 +6,7 @@ var server = require('http').Server(app);
 var port = process.env.APP_PORT || 80;
 
 app.use('/', express.static(__dirname + '/static'));
+app.use('/uploads', express.static(__dirname + '/uploads'));
 
 require('./routes')(app);
 

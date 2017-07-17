@@ -3,25 +3,89 @@
     color: #505050;
     font-weight: 100;
 }
-
 body {
     margin: 0;
-    padding: 0;
+    padding: 70px 0 0 0;
 }
-
-svg {
-    background-image: url('/images/brentwood-master-plan.JPG');
-    background-size: cover;
-}
-
 path {
   pointer-events: all;
   fill: none;
   stroke: #666;
   stroke-opacity: 0;
 }
-
-.active circle {
-  stroke: #ececec;
+circle {
+    cursor: pointer;
+}
+circle.active {
+  stroke: #ffffff;
   stroke-width: 2px;
+}
+.chart-container{
+    width: 75%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    float: left;
+}
+.data-container{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding-left: 20px;
+    height: 475px;
+    overflow: auto;
+}
+.data-controls{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#chart{
+    width: 850px;
+    height: 475px;
+    float: left;
+    border-right: 7px solid #f5f5f5;
+}
+.chart-legend {
+    height: 50px;
+    width: 100%;
+    clear: both;
+}
+.planning-map {
+    background-size: cover;
+}
+.legend {
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+}
+.legend.half {
+    width: 50%;
+}
+.legend.left {
+    float: left;
+}
+.data-header {
+    border-bottom: 2px solid #ffffff;
+}
+.fade-element.ng-enter, .fade-element-in.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+.fade-element.ng-enter.ng-enter-active, .fade-element-in.ng-enter.ng-enter-active {
+  opacity:1;
+}
+.fade-element.ng-leave {
+  transition:0.5s linear all;
+  opacity:1;
+}
+.fade-element-out-slow.ng-leave {
+  transition:1.5s linear all;
+  opacity:1;
+}
+.fade-element.ng-leave.ng-leave-active, .fade-element-out-slow.ng-leave.ng-leave-active, .fade-element.ng-hide {
+  opacity:0;
+}
+.fade-element.ng-hide-add,
+.fade-element.ng-hide-remove {
+  transition: all linear 0.5s;
 }

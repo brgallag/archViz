@@ -2,6 +2,10 @@ angular.module('d3', [])
 .factory('d3Service', ['$document', '$q', '$rootScope',
 function($document, $q, $rootScope) {
     
+    var service = {
+        d3: function() { return d.promise; }
+    };
+    
     //create promise of D3
     var d = $q.defer();
 
@@ -23,9 +27,6 @@ function($document, $q, $rootScope) {
     var s = $document[0].getElementsByTagName('body')[0];
     s.appendChild(scriptTag);
 
-    // return promise if d3 has loaded 
-    return {
-        d3: function() { return d.promise; }
-    };
+    return service
     
 }]);

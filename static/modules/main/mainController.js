@@ -1,5 +1,3 @@
-/* global angular socket */
-
 (function() {
     'use strict';
     angular.module('module-main')
@@ -16,6 +14,10 @@
         
         function alertState(){
             vm.state = $state.current.name;
+        }
+        
+        vm.updateToolSet = function(tool) {
+            commonService.notify('UPDATE_TOOLSET', tool);
         }
     }]);
 })();

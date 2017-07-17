@@ -5,7 +5,9 @@
   angular.module('module-app', [
     'ui.router',
     'module-main',
-    'd3'
+    'module-mapping',
+    'd3',
+    'ngAnimate'
   ])
   .config(['$stateProvider', '$urlRouterProvider', '$httpProvider', '$locationProvider',
   function ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider) {
