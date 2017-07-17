@@ -1,0 +1,33 @@
+<div id="app-mapping">
+<!--    <div id="voronoi" voronoi style="background-color: #f8f8f8;"><svg width="960" height="500"></svg></div>-->
+    <voronoi2>
+        <div class="chart-container">
+            <div id="chart" class="planning-map" background-img="{{mappingCtrl.mapImage}}"></div>
+            <div class="chart-legend">
+                <div class="legend half left"><i ng-if="mappingCtrl.toolText.legendLeft" class="fa fa-long-arrow-left"></i> {{mappingCtrl.toolText.legendLeft}}</div>
+                <div class="legend half right">{{mappingCtrl.toolText.legendRight}} <i ng-if="mappingCtrl.toolText.legendRight" class="fa fa-long-arrow-right"></i></div>
+            </div>
+        </div>
+        
+        <div class="data-container">
+            <h4>{{mappingCtrl.toolText.title}}</h4>
+            <div class="fade-element-in" ng-class="{'fade-element-out-slow': !mappingCtrl.mappingData}" ng-if="mappingCtrl.mappingData">
+                <br>
+                <p class="data-header" ng-style="{'border-color': mappingCtrl.mappingData.color}"><strong>{{mappingCtrl.mappingData.department}}</strong><p>
+                <p>Room Name: {{mappingCtrl.mappingData.room}}</p>
+                <p>Area: {{mappingCtrl.mappingData.area}} m2</p>
+                <br>
+                <p>Characteristics</p>
+                <p>Activity Level: {{mappingCtrl.mappingData.active}}</p>
+                <p>Daylight Entrainment: {{mappingCtrl.mappingData.daylight}}</p>
+            </div>
+            
+            <div class="data-controls">
+                <button type="button" class="btn">Reset</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+
+    </voronoi2>
+
+</div>
