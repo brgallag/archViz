@@ -1,4 +1,4 @@
-angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonService', '$timeout', function (d3Service, commonService, $timeout) {
+angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonService', 'userService', '$timeout', function (d3Service, commonService, userService, $timeout) {
     return {
         restrict: 'EA',
         scope: { data: '=' },
@@ -12,6 +12,9 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
                     .await(ready)
                 
                 function ready(error, datapoints){
+                    
+                    commonService.listen(remoteUpdateObject, 'OBJECT_MOVED', 'mappingCtrl');
+                    commonService.listen(emitModelData, 'MODEL_REQUESTED', 'mappingCtrl');
                     
                     var width = 850;
                     var height = 475;
@@ -78,17 +81,44 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
                     var forceCollide = d3.forceCollide(function(d){
                         return radiusScale(d['Program Area'] * areaMultiplier) + 1
                     });
+                    
+                    var isFirstLoad = true;
 
                     var simulation = d3.forceSimulation(nodes)
 //                        .force("link", d3.forceLink(links).distance(200))
                         .force("x", forceXStart)
                         .force("y", forceYStart)
                         .force("collide", forceCollide)
-                        .on("tick", ticked);
+                        .on("tick", ticked)
+                        .on("end", function (){
+                            if (userService.userList.length > 1 && isFirstLoad) {
+                                isFirstLoad = false;
+                                var data = {
+                                    socketId: userService.userList[0],
+                                    projectId: 'Brentwood'
+                                }
+
+                                socket.emit('requestModel', data)
+                            }
+                        });
 
                     var g = svg.append("g").attr("transform", "translate(" + width / 2 + "," + height / 2 + ")"),
                         link = g.append("g").attr("stroke", "#000").attr("stroke-width", 1.5).selectAll(".link"),
                         node = g.append("g").attr("stroke", "#fff").attr("stroke-width", 1.5).selectAll(".node");
+                    
+                    var granularity = d3.select("#granularity-selector").node().value;
+
+                    datapoints.forEach(function(d) {
+                        if (granularity === 'Room') {
+                            if (d['Program Area'] && d['Room']) { 
+                                nodes.push(d) 
+                            }
+                        } else if (granularity === 'Department') {
+                            if (d['Program Area'] && d['Department'] && !d['Room']) { 
+                                nodes.push(d) 
+                            }
+                        }
+                    })
 
                     restart();
 
@@ -114,26 +144,10 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
 //                    }, 2000, d3.now() + 1000);
 
                     function restart() {
-                        
-                        nodes = [];
-                        
-                        granularity = d3.select("#granularity-selector").node().value;
-
-                        datapoints.forEach(function(d) {
-                            if (granularity === 'Room') {
-                                if (d['Program Area'] && d['Room']) { 
-                                    nodes.push(d) 
-                                }
-                            } else if (granularity === 'Department') {
-                                if (d['Program Area'] && d['Department'] && !d['Room']) { 
-                                    nodes.push(d) 
-                                }
-                            }
-                        })
 
                         // Apply the general update pattern to the nodes.;
                         node = node.data(nodes)
-                            .attr("class", "department-bubble")
+                            .attr("class", "node")
                                 .attr("r", function(d){
                                     return radiusScale(d['Program Area'])
                                 })
@@ -144,7 +158,10 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
                         node.exit().remove();
                         
                         node = node.enter().append("circle")
-                            .attr("class", "department-bubble")
+                            .attr("class", "node")
+                            .attr("id", function(d){
+                                return 'circle-' + d['id']
+                            })
                             .attr("r", function(d){
                                 return radiusScale(d['Program Area'])
                             })
@@ -222,9 +239,49 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
 
                     function dragended(d) {
                         d3.select(this).classed("active", false);
+                        emitModelData();
+                    }
+                    
+                    function emitModelData(){
+                        socket.emit('updateModel', nodes );
+                    }
+                    
+                    function remoteUpdateObject(objectData) {
+//                        nodes.push(objectData)
+                        
+                        objectData.forEach(function(i){
+                            d3.selectAll(".node")
+                                .filter(function(d) {
+                                    return d['id'] === i.id
+                                })
+                                .transition()
+                                .duration(500)
+                                    .attr("cx", function(d){ return d.x = i.x })
+                                    .attr("cy", function(d){ return d.y = i.y });
+                        })
+                        
+                        simulation
+                            .alphaTarget(0)
+                            .restart()
                     }
                     
                     d3.select("#granularity-selector").on('change', function(){
+                        nodes = [];
+                        
+                        granularity = this.value;
+
+                        datapoints.forEach(function(d) {
+                            if (granularity === 'Room') {
+                                if (d['Program Area'] && d['Room']) { 
+                                    nodes.push(d) 
+                                }
+                            } else if (granularity === 'Department') {
+                                if (d['Program Area'] && d['Department'] && !d['Room']) { 
+                                    nodes.push(d) 
+                                }
+                            }
+                        })
+                        
                         restart();
                     });
                     

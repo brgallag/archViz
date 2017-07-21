@@ -27,7 +27,7 @@
     $locationProvider.html5Mode(true);
 
   }])
-  .run(['commonService', '$rootScope', '$state', '$timeout', '$transitions', function(commonService, $rootScope, $state, $timeout, $transitions) {
+  .run(['commonService', 'websocketService', '$rootScope', '$state', '$timeout', '$transitions', function(commonService, websocketService, $rootScope, $state, $timeout, $transitions) {
 
         $transitions.onStart( {}, function($transitions) {
             commonService.notify('START_STATE_CHANGE');
@@ -43,6 +43,7 @@
         });
       
         commonService.init();
+        websocketService.init();
   }])
   .factory('timeoutHttpIntercept', ['$rootScope', '$q', function ($rootScope, $q) {
     return {

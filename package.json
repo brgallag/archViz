@@ -1,11 +1,12 @@
 {
-    "name": "@mdSandbox/programming",
-    "description": "MD Sandbox",
-    "version": "1.0.0",
-    "license": "none",
-    "dependencies": {
-        "body-parser": "^1.17.2",
-        "express": "^4.15.3",
-        "mongoose": "^4.11.2"
-    }
+  "name": "@mdSandbox/programming",
+  "description": "MD Sandbox",
+  "version": "1.0.0",
+  "license": "none",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.2",
+    "socket.io": "^2.0.3"
+  }
 }
