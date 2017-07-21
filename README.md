@@ -1,4 +1,4 @@
-# archViz
+# programViz
 
 <h3>Programming and Data Visualization: New Horizons for User Interactivity</h3>
 
