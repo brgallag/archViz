@@ -3,8 +3,8 @@
 (function() {
     'use strict';
     angular.module('module-app')
-    .service('commonService', ['CONFIG', '$q', '$rootScope', '$location',
-    function (CONFIG, $q, $rootScope, $location) {
+    .service('commonService', ['CONFIG', '$q',
+    function (CONFIG, $q) {
 
         /* Public Property and Method references go here */
         var locale = 'en-us';

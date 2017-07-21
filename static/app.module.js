@@ -4,10 +4,10 @@
   'use strict';
   angular.module('module-app', [
     'ui.router',
-    'module-main',
     'module-mapping',
     'd3',
-    'ngAnimate'
+    'ngAnimate',
+    'ngFileUpload',
   ])
   .config(['$stateProvider', '$urlRouterProvider', '$httpProvider', '$locationProvider',
   function ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider) {
@@ -15,7 +15,8 @@
 
     $stateProvider
         .state('home', {
-            url: '/'
+            url: '/',
+            templateUrl: 'views/main.html'
         })
         .state('programming', {
             url: '/programming',

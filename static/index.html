@@ -21,42 +21,83 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+        <link rel="stylesheet" href="fonts/roboto.css" />
         <link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     </head>
 
-    <body ng-cloak>
+    <body ng-cloak ng-controller="mainCtrl as mainCtrl">
         
         <div id="app">
-            <main></main>
+            
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" ui-sref="home">ProgramViz (beta)</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li ng-class="{active: mainCtrl.state === 'programming'}"><a ui-sref="programming">Programming</a></li>
+
+                    <li class="dropdown" ng-if="mainCtrl.state === 'programming'">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tools <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-header">Program Mapping</li>
+                        <li><a id="map1" ng-click="mainCtrl.updateToolSet('map1')" href="#">Campus</a></li>
+                        <li><a id="map2" ng-click="mainCtrl.updateToolSet('map2')" href="#">Departments</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Program Analysis</li>
+                        <li><a id="analysis1" ng-click="mainCtrl.updateToolSet('analysis1')" href="#">Active vs Passive</a></li>
+                        <li><a id="analysis2" ng-click="mainCtrl.updateToolSet('analysis2')" href="#">Daylight Entrainment</a></li>
+                      </ul>
+                    </li>
+
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="http://mclennan-design.com" target="_blank">McLennan Design<span class="sr-only">(current)</span></a></li>
+                  </ul>
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>         
+            
+            <div class="container">
+                <ui-view></ui-view>
+            </div><!-- /container -->
         </div>
         
         <!-- Component Libraries -->
         <script src="components/angular.js"></script>
         <script src="components/angular-ui-router.min.js"></script>
         <script src="components/angular-animate.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="components/jquery.min.js"></script>
+        <script src="components/bootstrap.min.js"></script>
+        <script src="components/socket.io.js"></script>
+<!--        <script>var socket = io.connect();</script>-->
+        <script src="components/ng-file-upload.min.js"></script>
         
         <!-- Core App Components -->
         <script src="app.module.js"></script>
         <script src="config.js"></script>
+        <script src="mainController.js"></script>
         
         <!-- Modules -->
-        <script src="modules/main/main.module.js"></script>
-        <script src="modules/main/mainController.js"></script>
         <script src="modules/mapping/mapping.module.js"></script>
         <script src="modules/mapping/mappingController.js"></script>
         
         <!-- Directives -->
         <script src="directives/miscDirectives.js"></script>
-        <script src="directives/voronoi.js"></script>
-        <script src="directives/voronoi2.js"></script>
+        <script src="directives/programAnalysis.js"></script>
         
         <!-- Global Services and Factories -->
         <script src="services/commonService.js"></script>
+        <script src="services/websocketService.js"></script>
         <script src="services/d3Service.js"></script>
         
     </body>

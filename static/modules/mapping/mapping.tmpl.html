@@ -1,33 +1,55 @@
 <div id="app-mapping">
 <!--    <div id="voronoi" voronoi style="background-color: #f8f8f8;"><svg width="960" height="500"></svg></div>-->
-    <voronoi2>
-        <div class="chart-container">
-            <div id="chart" class="planning-map" background-img="{{mappingCtrl.mapImage}}"></div>
+    <program-analysis data="mappingCtrl.data">
+        <div id="chart-container" class="chart-container">
+            <div id="chart" class="planning-map" background-img="{{mappingCtrl.toolData.mapImage}}"></div>
             <div class="chart-legend">
-                <div class="legend half left"><i ng-if="mappingCtrl.toolText.legendLeft" class="fa fa-long-arrow-left"></i> {{mappingCtrl.toolText.legendLeft}}</div>
-                <div class="legend half right">{{mappingCtrl.toolText.legendRight}} <i ng-if="mappingCtrl.toolText.legendRight" class="fa fa-long-arrow-right"></i></div>
+                <div class="legend half left"><i ng-if="mappingCtrl.toolData.legendLeft" class="fa fa-long-arrow-left"></i> {{mappingCtrl.toolData.legendLeft}}</div>
+                <div class="legend" style="width: 28%;">{{mappingCtrl.toolData.title}}</div>
+                <div class="legend half right">{{mappingCtrl.toolData.legendRight}} <i ng-if="mappingCtrl.toolData.legendRight" class="fa fa-long-arrow-right"></i></div>
             </div>
         </div>
         
         <div class="data-container">
-            <h4>{{mappingCtrl.toolText.title}}</h4>
+            <h4>{{mappingCtrl.toolData.title}}</h4>
             <div class="fade-element-in" ng-class="{'fade-element-out-slow': !mappingCtrl.mappingData}" ng-if="mappingCtrl.mappingData">
                 <br>
-                <p class="data-header" ng-style="{'border-color': mappingCtrl.mappingData.color}"><strong>{{mappingCtrl.mappingData.department}}</strong><p>
-                <p>Room Name: {{mappingCtrl.mappingData.room}}</p>
-                <p>Area: {{mappingCtrl.mappingData.area}} m2</p>
+                <p class="data-header" ng-style="{'border-color': mappingCtrl.mappingData['Color']}"><strong>{{mappingCtrl.mappingData['Department']}}</strong><p>
+                <p ng-if="mappingCtrl.mappingData['Room']">Room Name: {{mappingCtrl.mappingData['Room']}}</p>
+                <p>Area: {{mappingCtrl.mappingData['Program Area']}} m2</p>
                 <br>
                 <p>Characteristics</p>
-                <p>Activity Level: {{mappingCtrl.mappingData.active}}</p>
-                <p>Daylight Entrainment: {{mappingCtrl.mappingData.daylight}}</p>
+                <p>Activity Level: {{mappingCtrl.mappingData['Active']}}</p>
+                <p>Daylight Entrainment: {{mappingCtrl.mappingData['Daylight']}}</p>
             </div>
             
             <div class="data-controls">
-                <button type="button" class="btn">Reset</button>
-                <button type="button" class="btn btn-primary">Save</button>
+                
+                <div class="form-group">
+                  <label for="overlay-selector">Granularity</label>
+                  <select class="form-control" id="granularity-selector">
+                    <option value="Department">Departments</option>
+                    <option value="Room">Rooms</option>
+                  </select>
+                </div>                
+                
+                <div class="form-group">
+                  <label for="overlay-selector">Lens</label>
+                  <select class="form-control" id="overlay-selector">
+                    <option value="program">Program</option>
+                    <option value="activity">Activity Level</option>
+                    <option value="daylight">Daylight Entrainment</option>
+                  </select>
+                </div>
+                
+                <div style="float:right;">
+                    <button type="button" class="btn">Reset</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+                
             </div>
         </div>
 
-    </voronoi2>
+    </program-analysis>
 
 </div>
