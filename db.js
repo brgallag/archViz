@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('brentwood'), function(a) {
+mongoose.connect('archviz'), function(a) {
     if () {
         console.log('mongodb connected');
     } else {
