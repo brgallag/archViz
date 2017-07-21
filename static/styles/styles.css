@@ -89,3 +89,6 @@ circle.active {
 .fade-element.ng-hide-remove {
   transition: all linear 0.5s;
 }
+.shadow{
+    box-shadow: 0 0 13px #ececec;
+}
