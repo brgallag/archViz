@@ -1,6 +1,6 @@
 # programViz
 
-<h3>Programming and Data Visualization: New Horizons for User Interactivity</h3>
+<h3>Architectural Programming and Data Visualization: New Horizons for User Interactivity</h3>
 
 ProgramViz allows individuals and teams to experiment with key functional adjacencies and record them, either in the space of a team meeting or from their own smart phones, tablets, or computers. The tool allows the user to experience “program” as a fluid entity, enriched by overlapping sets of data, in order to reach a level of creative freedom that could unlock the project’s hidden potential. Like peeling layers of an onion, ProgramViz it will allow users to dive to deep, eventually landing on a room data sheet with fine detail of a room requirement, and zooming back out to the macro space adjacency diagrams that the user has created. The user can then save their ideas back to a database or share them with collaborators in order to enrich the process and ultimately create the best possible design.
 
