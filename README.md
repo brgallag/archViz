@@ -8,4 +8,4 @@ The further development of ProgramViz is proposed for ISTB7. Like peeling layers
 
 This project will take the qualitatively productive process to a new level for an innovative new process. Within the intense 60-day period of programming, we will engage every user and stakeholder in exercises that are intuitive and as simple as a web-app on their phones, tablets, or laptops. We recognize that the changing economy means that many client groups live and work in scattered places around the globe – a fact that necessitates a more flexible mode of communication that allows individuals and groups to participate from afar or in person.
 
-![Screenshot](/static/images/brentwood-master-plan.jpg?raw=true "Title")
+![Screenshot](/static/images/brentwood-master-plan.JPG?raw=true "Title")
