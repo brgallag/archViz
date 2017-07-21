@@ -1,0 +1,69 @@
+id,Department,Sub-department,Room,Daylight,Active,Public,Tri-academic,Tri-athletic,Tri-arts,Max Area,Min Area,Program Area,,Color,Description
+1,Learning,,,6,4.11,3.32,4.95,0.68,0.37,8280,6120,7200,,#00A4A3,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+2,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+3,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+4,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+5,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+6,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+7,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+8,Learning,Specialty,Art Studio,6,6,3,0,2,4,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+9,Learning,Laboratories,Marine Biology Lab,6,6,5,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+10,Learning,Laboratories,Physics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+11,Learning,Laboratories,Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+12,Learning,Laboratories,Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+13,Learning,Other,Faculty Office,6,4,2,2,2,2,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+14,Learning,Work Areas,Shared Work Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+15,Learning,Work Areas,Shared Work Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+16,Learning,Work Areas,Shared Work Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+17,Learning,Work Areas,Shared Work Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+18,Learning,Work Areas,Shared Work Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+19,Learning,Work Areas,Shared Work Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+20,Learning,Work Areas,Meeting Room,6,2,2,4,1,1,345,255,300,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+21,,,,,,,,,,,,,,,
+22,Administration,,,5.0,3.0,2.0,2.1,1.7,2.1,2415,1785,2250,,#387EC2,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+23,Administration,Admissions,Office,5,3,2,3,0,3,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+24,Administration,Admissions,Seating,5,3,2,3,0,3,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+25,Administration,IT,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+26,Administration,IT,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+27,Administration,Reception,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+28,Administration,Reception,Seating,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+29,Administration,Financial Aid,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+30,Administration,Financial Aid,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+31,Administration,Communications,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+32,Administration,Communications,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+33,Administration,Development,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+34,Administration,Development,Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+35,Administration,Other,Head of School Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+36,Administration,Other,Assistant Head of School Office,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+37,Administration,Other,Meeting Room,5,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+38,,,,,,,,,,,,,,,
+39,Learning Commons,,,4.3,3.0,3.0,5.7,0.0,0.3,2990,2210,2600,,#FFC100,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+40,Learning Commons,,Open Work Area,6,5,3,6,0,0,1150,850,1000,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+41,Learning Commons,,Group Work Room,3,2,2,6,0,0,230,170,200,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+42,Learning Commons,,Group Work Room,3,2,2,6,0,0,230,170,200,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+43,Learning Commons,,Quiet Work Rooms,5,2,2,6,0,0,287.5,212.5,250,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+44,Learning Commons,,Quiet Work Rooms,5,2,2,6,0,0,287.5,212.5,250,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+45,Learning Commons,,Librarian Space,4,4,5,5,0,1,230,170,200,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+46,Learning Commons,,Resources,4,4,5,5,0,1,575,425,500,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+47,,,,,,,,,,,,,,,
+48,Outdoor ,,,6.0,5.3,5.8,2.7,3.0,1.0,2472.5,1827.5,2150,,#7AA542,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+49,Outdoor ,,Open spaces,6,6,6,1,4,1,345,255,300,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+50,Outdoor ,,Outdoor Classroom,6,6,6,4,2,0,460,340,400,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+51,Outdoor ,,Campus Loop,6,5,6,,3,3,1150,850,1000,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+52,Outdoor ,,Garden/Farm,6,4,5,3,3,0,517.5,382.5,450,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+53,,,,,,,,,,,,,,,
+54,Athletics,,,5.0,5.8,5.3,0.0,5.5,0.5,2530,1870,2200,,#D772AF,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+55,Athletics,Rowing,Boat Storage,5,5,6,0,6,0,287.5,212.5,250,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+56,Athletics,Rowing,Launch Dock,6,6,6,0,6,0,172.5,127.5,150,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+57,Athletics,Rowing,Training Space,3,6,3,0,6,0,920,680,800,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+58,Athletics,Rowing,Spectator Space,6,6,6,0,4,2,1150,850,1000,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+59,,,,,,,,,,,,,,,
+60,Housing,,,1.7,4.7,1.3,2.0,2.0,2.0,1150,850,1000,,#B078B1,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+61,Housing,,Student Dormitories,2,5,2,2,2,2,575,425,500,,#B078B1,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+62,Housing,,Head of School Housing,1,6,1,2,2,2,287.5,212.5,250,,#B078B1,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+63,Housing,,Staff Housing,2,3,1,2,2,2,287.5,212.5,250,,#B078B1,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+64,,,,,,,,,,,,,,,
+65,Other,,,4.7,2.3,3.7,2.3,1.3,2.3,1035,765,900,,#A77C50,A short description of this department will show up here. This is a placeholder. The description should be about this long.
+66,Other,,Spiritual Multi Purpose Space,4,2,2,0,3,3,690,510,600,,#AA815A,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+67,Other,,Audiotorium,5,3,5,3,0,3,172.5,127.5,150,,#AA815A,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+68,Other,,Living Machine,5,2,4,4,1,1,172.5,127.5,150,,#AA815A,A short description of this room will show up here. This is a placeholder. The description should be about this long.
