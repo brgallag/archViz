@@ -10,7 +10,8 @@ ProgramViz builds on those meetings, creates a space for an on-going collaborati
 
 The vision is that this process, which uses data visualization and online user engagement to display programs and their corresponding data in ways that are intuitive, engaging, and inspirational, will someday be commonplace.
 
-![Screenshot](/static/images/brentwood-master-plan.JPG?raw=true "Title")
+![Screenshot](/static/images/Splash1.jpg?raw=true "Title")
+![Screenshot](/static/images/Splash2.jpg?raw=true "Title")
 
 ### Installation
 
