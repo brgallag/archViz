@@ -19,7 +19,7 @@ Install via npm:
 ```bash
 $ npm install
 ```
-Run:
+Start the App:
 
 ```bash
 $ node server.js
