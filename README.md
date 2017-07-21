@@ -7,3 +7,5 @@ State of the art programming methods include questionnaires, one-on-one intervie
 The further development of ProgramViz is proposed for ISTB7. Like peeling layers of an onion, it allows users to dive to deep, eventually landing on a room data sheet with fine detail of a room requirement, and zooming back out to the macro space adjacency diagrams that the user has created. Strong and weak link structures show interrelationships between other users and resources in the ISTB7 academic community.
 
 This project will take the qualitatively productive process to a new level for an innovative new process. Within the intense 60-day period of programming, we will engage every user and stakeholder in exercises that are intuitive and as simple as a web-app on their phones, tablets, or laptops. We recognize that the changing economy means that many client groups live and work in scattered places around the globe – a fact that necessitates a more flexible mode of communication that allows individuals and groups to participate from afar or in person.
+
+![Alt text](static/images/brentwood-master-plan.jpg?raw=true "Title")
