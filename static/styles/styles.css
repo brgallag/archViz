@@ -23,6 +23,7 @@ circle.active {
 .chart-container{
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 -15px;
 }
 #chart{
     width: 100%;
