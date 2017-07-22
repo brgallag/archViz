@@ -1,30 +1,36 @@
 <div id="app-mapping">
-<!--    <div id="voronoi" voronoi style="background-color: #f8f8f8;"><svg width="960" height="500"></svg></div>-->
+
     <program-analysis data="mappingCtrl.data">
-        <div id="chart-container" class="chart-container">
-            <div id="chart" class="planning-map" background-img="{{mappingCtrl.toolData.mapImage}}"></div>
-            <div class="chart-legend">
-                <div class="legend half left"><i ng-if="mappingCtrl.toolData.legendLeft" class="fa fa-long-arrow-left"></i> {{mappingCtrl.toolData.legendLeft}}</div>
-                <div class="legend" style="width: 28%;">{{mappingCtrl.toolData.title}}</div>
-                <div class="legend half right">{{mappingCtrl.toolData.legendRight}} <i ng-if="mappingCtrl.toolData.legendRight" class="fa fa-long-arrow-right"></i></div>
+        <div class="row" style="margin-bottom:30px;">
+            <div class="col-sm-9">
+                <div id="chart-container" class="chart-container">
+                    <div id="chart" class="planning-map" background-img="{{mappingCtrl.toolData.mapImage}}"></div>
+                    <div class="chart-legend">
+                        <div class="legend half left"><i ng-if="mappingCtrl.toolData.legendLeft" class="fa fa-long-arrow-left"></i> {{mappingCtrl.toolData.legendLeft}}</div>
+                        <div class="legend" style="width: 28%;">{{mappingCtrl.toolData.title}}</div>
+                        <div class="legend half right">{{mappingCtrl.toolData.legendRight}} <i ng-if="mappingCtrl.toolData.legendRight" class="fa fa-long-arrow-right"></i></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <div class="data-container">
-            <h4>{{mappingCtrl.toolData.title}}</h4>
-            <div class="fade-element-in" ng-class="{'fade-element-out-slow': !mappingCtrl.mappingData}" ng-if="mappingCtrl.mappingData">
-                <br>
-                <p class="data-header" ng-style="{'border-color': mappingCtrl.mappingData['Color']}"><strong>{{mappingCtrl.mappingData['Department']}}</strong><p>
-                <p ng-if="mappingCtrl.mappingData['Room']">Room Name: {{mappingCtrl.mappingData['Room']}}</p>
-                <p>Area: {{mappingCtrl.mappingData['Program Area']}} m2</p>
-                <br>
-                <p>Characteristics</p>
-                <p>Activity Level: {{mappingCtrl.mappingData['Active']}}</p>
-                <p>Daylight Entrainment: {{mappingCtrl.mappingData['Daylight']}}</p>
+            <div class="col-sm-3">
+                <h4>{{mappingCtrl.toolData.title}}</h4>
+                <div class="fade-element-in" ng-class="{'fade-element-out-slow': !mappingCtrl.mappingData}" ng-if="mappingCtrl.mappingData">
+                    <br>
+                    <p class="data-header" ng-style="{'border-color': mappingCtrl.mappingData['Color']}"><strong>{{mappingCtrl.mappingData['Department']}}</strong><p>
+                    <p ng-if="mappingCtrl.mappingData['Room']">Room Name: {{mappingCtrl.mappingData['Room']}}</p>
+                    <p>Area: {{mappingCtrl.mappingData['Program Area']}} m2</p>
+                    <br>
+                    <p>Characteristics</p>
+                    <p>Activity Level: {{mappingCtrl.mappingData['Active']}}</p>
+                    <p>Daylight Entrainment: {{mappingCtrl.mappingData['Daylight']}}</p>
+                    <br>
+                    <p>{{mappingCtrl.mappingData['Description']}}</p>
+                </div>
             </div>
-            
-            <div class="data-controls">
-                
+        </div>   
+        <div class="row">
+            <div class="col-sm-4">
+
                 <div class="form-group">
                   <label for="overlay-selector">Granularity</label>
                   <select class="form-control" id="granularity-selector">
@@ -32,7 +38,7 @@
                     <option value="Room">Rooms</option>
                   </select>
                 </div>                
-                
+
                 <div class="form-group">
                   <label for="overlay-selector">Lens</label>
                   <select class="form-control" id="overlay-selector">
@@ -41,15 +47,14 @@
                     <option value="daylight">Daylight Entrainment</option>
                   </select>
                 </div>
-                
+
                 <div style="float:right;">
                     <button type="button" class="btn">Reset</button>
                     <button type="button" class="btn btn-primary">Save</button>
                 </div>
-                
+
             </div>
         </div>
-
     </program-analysis>
 
 </div>
