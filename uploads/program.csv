@@ -1,115 +1,115 @@
 id,Department,Sub-department,Room,Daylight,Active,Public,Tri-academic,Tri-athletic,Tri-arts,Max Area,Min Area,Program Area,,Color,Description
-1,Learning,Learning,,6,4.96,2.89,4.57,1.07,0.36,13685,10115,11900,,#00A4A3,A short description of this department will show up here. This is a placeholder. The description should be about this long.
-2,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-3,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-4,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-5,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-6,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-7,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-8,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-9,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-10,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-11,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-12,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-13,Learning,Laboratories,Biology Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-14,Learning,Laboratories,Biology Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-15,Learning,Laboratories,Chemistry Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-16,Learning,Laboratories,Chemistry Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-17,Learning,Laboratories,Physics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-18,Learning,Laboratories,Physics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-19,Learning,Laboratories,Biology Prep Space,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-20,Learning,Laboratories,Chemistry Prep Space,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-21,Learning,Laboratories,Physics Prep Space,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-22,Learning,Laboratories,Robotics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-23,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-24,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-25,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-26,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-27,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-28,Learning,Work Areas,Collaboration Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-29,Learning,Work Areas,Lecture Theatre,6,2,4,6,0,0,230,170,200,,#00A4A3,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+1,Learning,Learning,,6,4.96,2.89,4.57,1.07,0.36,13685,10115,11900,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+2,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+3,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+4,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+5,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+6,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+7,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+8,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+9,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+10,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+11,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+12,Learning,Classrooms,Classroom,6,5,3,6,0,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+13,Learning,Laboratories,Biology Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+14,Learning,Laboratories,Biology Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+15,Learning,Laboratories,Chemistry Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+16,Learning,Laboratories,Chemistry Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+17,Learning,Laboratories,Physics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+18,Learning,Laboratories,Physics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+19,Learning,Laboratories,Biology Prep Space,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+20,Learning,Laboratories,Chemistry Prep Space,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+21,Learning,Laboratories,Physics Prep Space,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+22,Learning,Laboratories,Robotics Lab,6,6,3,4,2,0,575,425,500,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+23,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+24,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+25,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+26,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+27,Learning,Offices,Teaching Office,6,4,2,2,2,2,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+28,Learning,Work Areas,Collaboration Zone,6,2,4,6,0,0,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
+29,Learning,Work Areas,Lecture Theatre,6,2,4,6,0,0,230,170,200,,#00A4A3,"Learning Spaces should be inspirational, flexible, and well lit."
 30,,,,,,,,,,,,,,,
-31,Administration,Administration,,3.1,2.6,2.0,2.1,1.9,2.0,8855,6545,7700,,#387EC2,A short description of this department will show up here. This is a placeholder. The description should be about this long.
-32,Administration,Lobby/Reception,Office,4,3,2,3,0,3,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-33,Administration,Lobby/Reception,Office,4,3,2,3,0,3,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-34,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-35,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-36,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-37,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-38,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-39,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-40,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-41,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-42,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-43,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-44,Administration,Lobby/Reception,Storage,1,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-45,Administration,Lobby/Reception,Kitchen,2,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-46,Administration,Lobby/Reception,Washroom,1,2,2,2,2,2,57.5,42.5,50,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-47,Administration,Lobby/Reception,Meeting Room,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-48,Administration,Lobby/Reception,Copier,1,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-49,Administration,Head of School,Washroom,2,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-50,Administration,Head of School,Kitchen,1,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-51,Administration,Head of School,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-52,Administration,Head of School,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-53,Administration,Assistant Head of School,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-54,Administration,Admissions,Lobby,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-55,Administration,Admissions,Reception,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-56,Administration,Admissions,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-57,Administration,Admissions,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-58,Administration,Admissions,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-59,Administration,Admissions,Waiting/Meeting Room,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-60,Administration,Admissions,Kitchen,1,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-61,Administration,Admissions,Washroom,1,1,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-62,Administration,Admissions,Testing Room,3,3,2,4,1,1,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-63,Administration,University Counseling,Lobby ,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-64,Administration,University Counseling,Collaboration Zone,5,4,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-65,Administration,University Counseling,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-66,Administration,Advancement,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-67,Administration,Advancement,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-68,Administration,Advancement,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-69,Administration,Advancement,Gathering Space,4,5,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-70,Administration,Advancement,Reception,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-71,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-72,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-73,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-74,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-75,Administration,Finance,Copier,1,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-76,Administration,Finance,Storage,1,1,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-77,Administration,Finance,Filing,2,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-78,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-79,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-80,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-81,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-82,Administration,Communications/Marketing,Collaboration Zone,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-83,Administration,Innovations,Collaboration Zone,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+31,Administration,Administration,,3.1,2.6,2.0,2.1,1.9,2.0,8855,6545,7700,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+32,Administration,Lobby/Reception,Office,4,3,2,3,0,3,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+33,Administration,Lobby/Reception,Office,4,3,2,3,0,3,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+34,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+35,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+36,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+37,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+38,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+39,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+40,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+41,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+42,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+43,Administration,Lobby/Reception,Office,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+44,Administration,Lobby/Reception,Storage,1,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+45,Administration,Lobby/Reception,Kitchen,2,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+46,Administration,Lobby/Reception,Washroom,1,2,2,2,2,2,57.5,42.5,50,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+47,Administration,Lobby/Reception,Meeting Room,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+48,Administration,Lobby/Reception,Copier,1,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+49,Administration,Head of School,Washroom,2,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+50,Administration,Head of School,Kitchen,1,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+51,Administration,Head of School,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+52,Administration,Head of School,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+53,Administration,Assistant Head of School,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+54,Administration,Admissions,Lobby,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+55,Administration,Admissions,Reception,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+56,Administration,Admissions,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+57,Administration,Admissions,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+58,Administration,Admissions,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+59,Administration,Admissions,Waiting/Meeting Room,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+60,Administration,Admissions,Kitchen,1,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+61,Administration,Admissions,Washroom,1,1,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+62,Administration,Admissions,Testing Room,3,3,2,4,1,1,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+63,Administration,University Counseling,Lobby ,4,3,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+64,Administration,University Counseling,Collaboration Zone,5,4,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+65,Administration,University Counseling,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+66,Administration,Advancement,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+67,Administration,Advancement,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+68,Administration,Advancement,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+69,Administration,Advancement,Gathering Space,4,5,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+70,Administration,Advancement,Reception,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+71,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+72,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+73,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+74,Administration,Finance,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+75,Administration,Finance,Copier,1,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+76,Administration,Finance,Storage,1,1,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+77,Administration,Finance,Filing,2,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+78,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+79,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+80,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+81,Administration,Human Resources,Office,3,2,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+82,Administration,Communications/Marketing,Collaboration Zone,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
+83,Administration,Innovations,Collaboration Zone,4,4,2,2,2,2,172.5,127.5,150,,#387EC2,The administration functions should be dispersed throughout the campus to ensure student and staff interactions
 84,,,,,,,,,,,,,,,
-85,Student Spaces,Student Spaces,,4.6,3.7,3.1,4.9,0.6,0.6,4140,3060,3600,,#FFC100,A short description of this department will show up here. This is a placeholder. The description should be about this long.
-86,Student Spaces,Learning Commons,Collaboration Zone,6,5,3,6,0,0,1150,850,1000,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-87,Student Spaces,Learning Commons,Office,3,2,2,6,0,0,230,170,200,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-88,Student Spaces,Learning Commons,Block Stacks,3,2,2,6,0,0,230,170,200,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-89,Student Spaces,Learning Commons,Student Work Space,5,2,2,6,0,0,287.5,212.5,250,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-90,Student Spaces,Student Centre,Office,5,4,3,4,1,1,517.5,382.5,450,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-91,Student Spaces,Student Centre,Collaboration Zone,5,5,5,4,1,1,1150,850,1000,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-92,Student Spaces,Cafeteria,Cafeteria,5,6,5,2,2,2,575,425,500,,#FFC100,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+85,Student Spaces,Student Spaces,,4.6,3.7,3.1,4.9,0.6,0.6,4140,3060,3600,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+86,Student Spaces,Learning Commons,Collaboration Zone,6,5,3,6,0,0,1150,850,1000,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+87,Student Spaces,Learning Commons,Office,3,2,2,6,0,0,230,170,200,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+88,Student Spaces,Learning Commons,Block Stacks,3,2,2,6,0,0,230,170,200,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+89,Student Spaces,Learning Commons,Student Work Space,5,2,2,6,0,0,287.5,212.5,250,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+90,Student Spaces,Student Centre,Office,5,4,3,4,1,1,517.5,382.5,450,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+91,Student Spaces,Student Centre,Collaboration Zone,5,5,5,4,1,1,1150,850,1000,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
+92,Student Spaces,Cafeteria,Cafeteria,5,6,5,2,2,2,575,425,500,,#FFC100,Student Spaces should inspire creativity and create unique opportunities for interaction
 93,,,,,,,,,,,,,,,
-94,Outdoor ,Outdoor,,6.0,5.3,5.8,2.7,3.0,1.0,2472.5,1827.5,2150,,#7AA542,A short description of this department will show up here. This is a placeholder. The description should be about this long.
-95,Outdoor ,Outdoor,Open spaces,6,6,6,1,4,1,345,255,300,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-96,Outdoor ,Outdoor,Outdoor Classroom,6,6,6,4,2,0,460,340,400,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-97,Outdoor ,Outdoor,Campus Loop,6,5,6,,3,3,1150,850,1000,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-98,Outdoor ,Outdoor,Garden/Farm,6,4,5,3,3,0,517.5,382.5,450,,#7AA542,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+94,Outdoor ,Outdoor,,6.0,5.3,5.8,2.7,3.0,1.0,2472.5,1827.5,2150,,#7AA542,"Outdoor Spaces should celebrate the BCS campus's proximity to its wild, natural surroundings and provide educational experiences for the community"
+95,Outdoor ,Outdoor,Open spaces,6,6,6,1,4,1,345,255,300,,#7AA542,"Outdoor Spaces should celebrate the BCS campus's proximity to its wild, natural surroundings and provide educational experiences for the community"
+96,Outdoor ,Outdoor,Outdoor Classroom,6,6,6,4,2,0,460,340,400,,#7AA542,"Outdoor Spaces should celebrate the BCS campus's proximity to its wild, natural surroundings and provide educational experiences for the community"
+97,Outdoor ,Outdoor,Campus Loop,6,5,6,,3,3,1150,850,1000,,#7AA542,"Outdoor Spaces should celebrate the BCS campus's proximity to its wild, natural surroundings and provide educational experiences for the community"
+98,Outdoor ,Outdoor,Garden/Farm,6,4,5,3,3,0,517.5,382.5,450,,#7AA542,"Outdoor Spaces should celebrate the BCS campus's proximity to its wild, natural surroundings and provide educational experiences for the community"
 99,,,,,,,,,,,,,,,
-100,Athletics,Athletics,,5.3,5.8,5.5,0.0,6.0,0.0,4945,3655,4300,,#D772AF,A short description of this department will show up here. This is a placeholder. The description should be about this long.
-101,Athletics,Rowing,Boat Storage,5,5,6,0,6,0,287.5,212.5,250,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-102,Athletics,Rowing,Boat Repair,6,6,6,0,6,0,172.5,127.5,150,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-103,Athletics,Rowing,Office,3,6,3,0,6,0,920,680,800,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-104,Athletics,Rowing,Workshop,6,6,6,0,6,0,575,425,500,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-105,Athletics,Rowing,Rowing Tank,6,6,6,0,6,0,1150,850,1000,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-106,Athletics,Rowing,Erg Room,6,6,6,0,6,0,1840,1360,1600,,#D772AF,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+100,Athletics,Athletics,,5.3,5.8,5.5,0.0,6.0,0.0,4945,3655,4300,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
+101,Athletics,Rowing,Boat Storage,5,5,6,0,6,0,287.5,212.5,250,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
+102,Athletics,Rowing,Boat Repair,6,6,6,0,6,0,172.5,127.5,150,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
+103,Athletics,Rowing,Office,3,6,3,0,6,0,920,680,800,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
+104,Athletics,Rowing,Workshop,6,6,6,0,6,0,575,425,500,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
+105,Athletics,Rowing,Rowing Tank,6,6,6,0,6,0,1150,850,1000,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
+106,Athletics,Rowing,Erg Room,6,6,6,0,6,0,1840,1360,1600,,#D772AF,"As one third of Brentwood's tripartite pedagogy, the athletic department should be highlighted in visually prominent spaces that add value to the community"
 107,,,,,,,,,,,,,,,
-108,Housing,Housing,,1.7,4.7,1.3,2.0,2.0,2.0,1150,850,1000,,#B078B1,A short description of this department will show up here. This is a placeholder. The description should be about this long.
-109,Housing,Housing,Student Dormitories,2,5,2,2,2,2,575,425,500,,#B078B1,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-110,Housing,Housing,Head of School Housing,1,6,1,2,2,2,287.5,212.5,250,,#B078B1,A short description of this room will show up here. This is a placeholder. The description should be about this long.
-111,Housing,Housing,Staff Housing,2,3,1,2,2,2,287.5,212.5,250,,#B078B1,A short description of this room will show up here. This is a placeholder. The description should be about this long.
+108,Housing,Housing,,1.7,4.7,1.3,2.0,2.0,2.0,1150,850,1000,,#B078B1,"Student housing should offer the comfort of a warm, communal home"
+109,Housing,Housing,Student Dormitories,2,5,2,2,2,2,575,425,500,,#B078B1,"Student housing should offer the comfort of a warm, communal home"
+110,Housing,Housing,Head of School Housing,1,6,1,2,2,2,287.5,212.5,250,,#B078B1,"Student housing should offer the comfort of a warm, communal home"
+111,Housing,Housing,Staff Housing,2,3,1,2,2,2,287.5,212.5,250,,#B078B1,"Student housing should offer the comfort of a warm, communal home"
 112,,,,,,,,,,,,,,,
 113,Other,Other,,4.7,2.3,3.7,2.3,1.3,2.3,1035,765,900,,#AA815A,A short description of this department will show up here. This is a placeholder. The description should be about this long.
 114,Other,Other,Spiritual Multi Purpose Space,4,2,2,0,3,3,690,510,600,,#AA815A,A short description of this room will show up here. This is a placeholder. The description should be about this long.
