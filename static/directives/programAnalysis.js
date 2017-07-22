@@ -35,11 +35,11 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
                     
                     var forceXStart = d3.forceX(function(d){
                         return 0;
-                    }).strength(0.05);
+                    }).strength(0.01);
 
                     var forceYStart = d3.forceY(function(d){
                         return 0;
-                    }).strength(0.05);
+                    }).strength(0.01);
                     
                     var forceXAnalysis1 = d3.forceX(function(d){
                         if (d['Active'] > 3){
@@ -47,7 +47,7 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
                         } else {
                             return ( .50 -( .05 * ( 7 - d['Active']  ) ) ) * width - width / 2
                         }
-                    }).strength(0.3);                
+                    }).strength(0.15);                
 
                     var forceXAnalysis2 = d3.forceX(function(d){
                         if (d['Daylight'] > 3){
@@ -55,7 +55,7 @@ angular.module('module-app').directive('programAnalysis', ['d3Service', 'commonS
                         } else {
                             return ( .50 -( .05 * ( 7 - d['Daylight']  ) ) ) * width - width / 2
                         }
-                    }).strength(0.3);
+                    }).strength(0.15);
                     
                     var colorOverlay = function(d){
                         var overlayScheme = d3.select("#overlay-selector").node().value;
